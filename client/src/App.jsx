@@ -3,7 +3,7 @@ import Home from './pages/home/Home'
 import CreatePost from './pages/CreatePost/CreatePost'
 import { Routes, Route } from 'react-router-dom'
 import SinglePost from './pages/singlePost/SinglePost'
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
