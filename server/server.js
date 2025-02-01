@@ -8,7 +8,7 @@ const connection1 = require('./db/connection1');
 const cors = require('cors');
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://qbdemo.netlify.app', 'https://full-stack-qb-demo.vercel.app/api/v1']
+    origin: ['http://localhost:5173', 'https://fullstack-qb.netlify.app', 'https://full-stack-qb-demo.vercel.app/api/v1']
 }));
 connection1();
 
